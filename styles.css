@@ -1,0 +1,105 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Soft and pretty background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffeaf4;  /* Very light pink background */
+    color: #000000;             /* Black text for easy reading */
+    line-height: 1.8;
+}
+
+/* Header with bold pink and a cute vibe */
+header {
+    background-color: #d63384; /* Deep pink */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #ff69b4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links styled neatly */
+.navbar nav ul {
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #d63384;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #ffb6c1;
+}
+
+/* Stylish section headings */
+h1, h2, h3 {
+    color: #d63384;  /* Deep pink for elegance */
+    margin-bottom: 10px;
+}
+.my-name {
+    color: #fff5fa;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/* Sections padding and spacing */
+section {
+    padding: 30px;
+    background: #fff5fa;
+    margin: 20px auto;
+    width: 85%;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(214, 51, 132, 0.1);
+}
+
+/* Profile Image Rounded and Sweet */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid #d63384;
+}
+
+/* Project box with soft shadows */
+.project {
+    background: #ffeaf4;
+    padding: 15px;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Links match the pink vibe */
+a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+/* Footer soft and charming */
+footer {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 3px solid #ff69b4;
+}

@@ -2,63 +2,156 @@
 <html>
     <head>
         <title>Sohitha Mallina - Portfolio</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f4f4f4;
-                color: #333;
-            }
-            header {
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                padding: 20px 0;
-            }
-            header h1 {
-                margin: 0;
-                font-size: 36px;
-            }
-            .intro {
-                text-align: center;
-                padding: 40px;
-                background-color: #fff;
-            }
-            .intro h2 {
-                font-size: 28px;
-            }
-            .intro p {
-                font-size: 18px;
-                line-height: 1.6;
-            }
-            .links a {
-                color: #333;
-                text-decoration: none;
-                margin: 0 15px;
-                font-size: 18px;
-            }
-            footer {
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                padding: 15px 0;
-                position: fixed;
-                width: 100%;
-                bottom: 0;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
-            <h1>Sohitha Mallina</h1>
+            <h1 class="my-name">Sohitha Mallina</h1>
             <p>Software Developer | Aspiring MS Graduate</p>
         </header>
-        <div class = "intro">
+        <div class = "navbar">
             <h2>Welcome to my Portfolio</h2>
             <p>Hi! I'm Sohitha Mallina, a Computer Science enthusiast with skills in Python, SQL, Java, .NET, and Web Development.</p>
             <p>Check out my projects, resume, and feel free to contact me!</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="internships & achievements">Internships & achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+
+        <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Motivated software developer with hands-on experience in Python, Java, Machine Learning, and Data Structures. Skilled in building effective, 
+            scalable solutions and applying programming fundamentals to solve real-world challenges. Driven to contribute to company success through 
+            innovation and teamwork, with a strong commitment to continuous learning and growth in the software field.</p>
+        <img src="sohitha.jpeg" alt="Sohitha Mallina" class="profile-img">
+    </section>
+
+    <!--Eduacation Section-->
+    <section id="edu">
+        <h2>Education</h2>
+        <div class="Master's">
+            <h3>Northwest Missouri State University</h3>
+            <p>Applied Computer Science — Ongoing</p>
+            <span class="gpa">Current GPA: 3.5 / 4.0</span>
+        </div>
+        <div class = "Bachelor of Technology">
+            <h3>Vignan's Nirula Institute of Technology and Science for Women</h3>
+            <p>Electronics and Communication Engineering</p>
+            <span class="gpa">Final Cgpa: 7.1 / 10 </span>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Programming Languages</h3>
+    <p>Java, Data Structures and Algorithms, C#, Python, Object Oriented Programming, Node.js, Swift UI</p>
+
+    <h3>Software Engineering</h3>
+    <p>Experience with software development lifecycle, version control, debugging, and documentation</p>
+
+    <h3>Web Development</h3>
+    <p>HTML, CSS, JavaScript</p>
+
+    <h3>Database Management</h3>
+    <p>MySQL, SQL (Relational Databases)</p>
+
+    <h3>Technologies</h3>
+    <p>Cloud Computing, Amazon Web Services (AWS), Computer Networks, Operating Systems</p>
+
+    <h3>Version Control</h3>
+    <p>Git, GitHub, GitLab</p>
+
+    <h3>Operating Systems</h3>
+    <p>iOS, Windows 11, Windows Server, Linux (Terminal Commands)</p>
+
+    <h3>Server Knowledge</h3>
+    <p>Internet Information Server (IIS), Web and Multimedia Server Maintenance</p>
+
+    <h3>Software Development</h3>
+    <p>Application debugging, code review, documentation</p>
+
+    <h3>Other Skills</h3>
+    <p>File management, multitasking, effective verbal and written communication, time management</p>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Smart Waste Management System for Smart Cities (IOT Based)</h3>
+            <p>Our project leverages loT technology to optimize waste management to promoting cleanliness and timely disposal through Smart 
+                Dustbins that send fill-level and odor alerts and enhance efficiency, reduce health risks.
+                </p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Servo Motor Trash Checker</h3>
+            <p>Developed an autonomous Waste Detection and Cleaning system, achieving 95% detection accuracy and efficient waste removal in 
+                diverse environments using IR sensors, Node MCU, and servo motor.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Personal Portfolio</h3>
+            <p>Developed a personal portfolio to showcase my skills, projects, and achievements.</p>
+        </div>
+    </section>
+
+    <!--Internships & Achievements-->
+    <section class="internships">
+            <h2>Internships & Achievements</h2>
+        
+            <h3>Programming for Everybody (Getting started with Python)</h3>
+            <p><strong>University of Michigan</strong> (via Coursera)</p>
+            <ul>
+                <li>Acquired foundational Python programming skills, including syntax, data types, and control structures.</li>
+                <li>Developed simple programs to automate tasks, demonstrating problem-solving and logical thinking.</li>
+            </ul>
+        
+            <h3>Introduction to Java</h3>
+            <p><strong>LearnQuest</strong> (via Coursera)</p>
+            <ul>
+                <li>Built a strong understanding of Java fundamentals: object-oriented principles, classes, and inheritance.</li>
+                <li>Gained hands-on experience with Java syntax and developed small applications.</li>
+            </ul>
+        
+            <h3>Machine Learning with Python Internship</h3>
+            <p><strong>Verzeo</strong></p>
+            <ul>
+                <li>Applied machine learning algorithms to real-world datasets using supervised and unsupervised learning.</li>
+                <li>Hands-on experience with data preprocessing, feature engineering, and model evaluation in Python.</li>
+            </ul>
+        
+            <h3>Introduction to Internet of Things (IoT)</h3>
+            <p><strong>NPTEL | IIT Kharagpur</strong></p>
+            <ul>
+                <li>Studied IoT fundamentals: sensor integration, data communication, and IoT architecture.</li>
+                <li>Designed simple IoT solutions focusing on device connectivity and data transfer protocols.</li>
+            </ul>
+        
+            <h3>Programming in Java</h3>
+            <p><strong>NPTEL | IIT Kharagpur</strong></p>
+            <ul>
+                <li>Deepened Java programming skills with advanced object-oriented concepts and data structures.</li>
+                <li>Completed hands-on projects involving algorithms and Java’s standard libraries.</li>
+            </ul>
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me:</p>
+        <ul>
+            <li>Email: <a href="mailto:sohithamallina@gmail.com">sohithamallina@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/sohitha-mallina">LinkedIn Profile</a></li>
+            <li>GitHub: <a href="https://github.com/SohithaMallina">GitHub Profile</a></li>
+        </ul>
+    </section>
+
         <footer>
         <p>&copy; 2025 Sohitha Mallina. All rights reserved.</p>
         </footer>
